@@ -8,3 +8,5 @@ class motor{
 		string merkMotor;
 		void berkendara(string kecepatan);
 		
+		void motor::berkendara(string kecepatan){
+	cout << "kecepatan Motor : "<< kecepatan <<endl;
