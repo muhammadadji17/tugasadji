@@ -21,3 +21,5 @@ class motor{
  motorBalap.jumlahMotor = 100;
  motorBalap.merkMotor = "yamaha";
  
+ string pilihan;
+ cout << "ikam menukar kah atau kada : "; cin >> pilihan;
