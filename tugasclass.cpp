@@ -29,3 +29,9 @@ class motor{
  cout << " - jumlahMotor = "<<motorBalap.jumlahMotor<<endl;
  cout << " - Merk Motor = "<<motorBalap.merkMotor<<endl;
  motorBalap.berkendara("200Km/jam");
+ 
+ }else if(pilihan=="motorMatic"){
+ cout << " Motor Balap :"<<endl;
+ cout << " - jumlah Motor = "<<motorBalap.jumlahMotor<<endl;
+ cout << " - Merk Motor = "<<motorBalap.merkMotor<<endl;
+ motorBalap.berkendara("120Km/jam");
