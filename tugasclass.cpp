@@ -23,3 +23,9 @@ class motor{
  
  string pilihan;
  cout << "ikam menukar kah atau kada : "; cin >> pilihan;
+ 
+ if(pilihan=="motorBalap"){
+ cout << " Motor Balap :"<<endl;
+ cout << " - jumlahMotor = "<<motorBalap.jumlahMotor<<endl;
+ cout << " - Merk Motor = "<<motorBalap.merkMotor<<endl;
+ motorBalap.berkendara("200Km/jam");
